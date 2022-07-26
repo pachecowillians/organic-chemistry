@@ -1,0 +1,24 @@
+C:\Softwares\Software\SistemaQuimicaOrganica\SistemaQuimicaOrganica\bin\Debug\SistemaQuimicaOrganica.exe.config
+C:\Softwares\Software\SistemaQuimicaOrganica\SistemaQuimicaOrganica\bin\Debug\SistemaQuimicaOrganica.exe
+C:\Softwares\Software\SistemaQuimicaOrganica\SistemaQuimicaOrganica\bin\Debug\SistemaQuimicaOrganica.pdb
+C:\Softwares\Software\SistemaQuimicaOrganica\SistemaQuimicaOrganica\obj\Debug\SistemaQuimicaOrganica.frmGerarComposto.resources
+C:\Softwares\Software\SistemaQuimicaOrganica\SistemaQuimicaOrganica\obj\Debug\SistemaQuimicaOrganica.frmIdentifiqueFuncao.resources
+C:\Softwares\Software\SistemaQuimicaOrganica\SistemaQuimicaOrganica\obj\Debug\SistemaQuimicaOrganica.frmPrincipal.resources
+C:\Softwares\Software\SistemaQuimicaOrganica\SistemaQuimicaOrganica\obj\Debug\SistemaQuimicaOrganica.frmSignificadoNome.resources
+C:\Softwares\Software\SistemaQuimicaOrganica\SistemaQuimicaOrganica\obj\Debug\SistemaQuimicaOrganica.Properties.Resources.resources
+C:\Softwares\Software\SistemaQuimicaOrganica\SistemaQuimicaOrganica\obj\Debug\SistemaQuimicaOrganica.csproj.GenerateResource.Cache
+C:\Softwares\Software\SistemaQuimicaOrganica\SistemaQuimicaOrganica\obj\Debug\SistemaQuimicaOrganica.exe
+C:\Softwares\Software\SistemaQuimicaOrganica\SistemaQuimicaOrganica\obj\Debug\SistemaQuimicaOrganica.pdb
+E:\Sistemas\Sistemas concluídos\SISTEMA QUÍMICA ORGÂNICA\SistemaQuimicaOrganica\SistemaQuimicaOrganica\bin\Debug\SistemaQuimicaOrganica.exe.config
+E:\Sistemas\Sistemas concluídos\SISTEMA QUÍMICA ORGÂNICA\SistemaQuimicaOrganica\SistemaQuimicaOrganica\obj\Debug\SistemaQuimicaOrganica.exe
+E:\Sistemas\Sistemas concluídos\SISTEMA QUÍMICA ORGÂNICA\SistemaQuimicaOrganica\SistemaQuimicaOrganica\obj\Debug\SistemaQuimicaOrganica.pdb
+E:\Sistemas\Sistemas concluídos\SISTEMA QUÍMICA ORGÂNICA\SistemaQuimicaOrganica\SistemaQuimicaOrganica\bin\Debug\SistemaQuimicaOrganica.exe
+E:\Sistemas\Sistemas concluídos\SISTEMA QUÍMICA ORGÂNICA\SistemaQuimicaOrganica\SistemaQuimicaOrganica\bin\Debug\SistemaQuimicaOrganica.pdb
+E:\Sistemas\Sistemas concluídos\SISTEMA QUÍMICA ORGÂNICA\SistemaQuimicaOrganica\SistemaQuimicaOrganica\obj\Debug\SistemaQuimicaOrganica.csprojResolveAssemblyReference.cache
+E:\Sistemas\Sistemas concluídos\SISTEMA QUÍMICA ORGÂNICA\SistemaQuimicaOrganica\SistemaQuimicaOrganica\obj\Debug\SistemaQuimicaOrganica.frmGerarComposto.resources
+E:\Sistemas\Sistemas concluídos\SISTEMA QUÍMICA ORGÂNICA\SistemaQuimicaOrganica\SistemaQuimicaOrganica\obj\Debug\SistemaQuimicaOrganica.frmIdentifiqueFuncao.resources
+E:\Sistemas\Sistemas concluídos\SISTEMA QUÍMICA ORGÂNICA\SistemaQuimicaOrganica\SistemaQuimicaOrganica\obj\Debug\SistemaQuimicaOrganica.frmPrincipal.resources
+E:\Sistemas\Sistemas concluídos\SISTEMA QUÍMICA ORGÂNICA\SistemaQuimicaOrganica\SistemaQuimicaOrganica\obj\Debug\SistemaQuimicaOrganica.frmSignificadoNome.resources
+E:\Sistemas\Sistemas concluídos\SISTEMA QUÍMICA ORGÂNICA\SistemaQuimicaOrganica\SistemaQuimicaOrganica\obj\Debug\SistemaQuimicaOrganica.Properties.Resources.resources
+E:\Sistemas\Sistemas concluídos\SISTEMA QUÍMICA ORGÂNICA\SistemaQuimicaOrganica\SistemaQuimicaOrganica\obj\Debug\SistemaQuimicaOrganica.csproj.GenerateResource.cache
+E:\Sistemas\Sistemas concluídos\SISTEMA QUÍMICA ORGÂNICA\SistemaQuimicaOrganica\SistemaQuimicaOrganica\obj\Debug\SistemaQuimicaOrganica.csproj.CoreCompileInputs.cache

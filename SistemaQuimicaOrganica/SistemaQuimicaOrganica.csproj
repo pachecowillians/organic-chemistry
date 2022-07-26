@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{27A33DCE-AD17-4E42-BA75-05F3DD9C2848}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SistemaQuimicaOrganica</RootNamespace>
+    <AssemblyName>SistemaQuimicaOrganica</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmGerarComposto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGerarComposto.Designer.cs">
+      <DependentUpon>frmGerarComposto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmIdentifiqueFuncao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmIdentifiqueFuncao.Designer.cs">
+      <DependentUpon>frmIdentifiqueFuncao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPrincipal.Designer.cs">
+      <DependentUpon>frmPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSignificadoNome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSignificadoNome.Designer.cs">
+      <DependentUpon>frmSignificadoNome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmGerarComposto.resx">
+      <DependentUpon>frmGerarComposto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmIdentifiqueFuncao.resx">
+      <DependentUpon>frmIdentifiqueFuncao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPrincipal.resx">
+      <DependentUpon>frmPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSignificadoNome.resx">
+      <DependentUpon>frmSignificadoNome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GerarComposto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QualComposto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Certo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Errado.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AcidoCarboxilico.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Alcool.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Amida.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Amina.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cetona.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ester.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fenol.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hidrocarboneto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Enol.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Buteno.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Deceno.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eteno.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hepteno.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hexeno.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Noneno.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Octeno.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Penteno.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Propeno.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Butano.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Decano.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Etano.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Heptano.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hexano.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Metano.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nonano.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Octano.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pentano.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Propano.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Butino.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Decino.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Etino.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Heptino.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hexino.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nonino.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Octino.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pentino.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Propino.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QualNomeDesabiitado.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QualNomeSelecionar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Inicial.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
