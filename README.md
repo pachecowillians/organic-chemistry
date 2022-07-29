@@ -14,15 +14,4 @@ Desktop system implemented at the request of the high school chemistry teacher t
  
 For the application to work, it is necessary to use the Windows operating system. Knowing this, to run the application, just clone the repository and run the file located in ```SistemaQuimicaOrganica/bin/Debug/SistemaQuimicaOrganica.exe```.
 
-
-
-
-<div align="center">
-    <br/>
-    <img height="50px" src="./img/dotnet.svg"/>
-    <img height="50px" src="./img/csharp.svg"/>
-    <img height="50px" src="./img/windows.svg"/>
-    <br/>
-</div>
-
 <br/>
